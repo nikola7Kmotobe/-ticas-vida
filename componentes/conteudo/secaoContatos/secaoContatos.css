@@ -1,0 +1,35 @@
+.class-section{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+.class-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 15px;
+}
+.li{
+    margin: auto;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.img{
+    width: 18px;
+}
+.class-diva{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m{
+    margin: auto;
+}
+
+@media all and (max-width:768px){
+    .sect-res-consp{
+        padding: 60px 20px;
+    }
+}

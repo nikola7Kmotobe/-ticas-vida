@@ -1,0 +1,57 @@
+.baner{
+    background-image: url('../../../../public/assets/capa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background:linear-gradient(47deg, #000113 0%, #04061d 80%, #04061d 100%);*/
+    height:80%;
+    width: 100%;
+}
+.secao{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.text{
+    font-size: 40px;
+    font-family: 'Anybody', cursive;
+    color: #fff;
+    margin-left: 45px
+}
+.text-class{
+    font-size: 60px;
+    margin: 0 0 0 35px;
+    line-height: 5px;
+    line-height: 70px;
+    padding: 5px;
+    color: rgb(196, 196, 196);
+    
+}
+
+@media all and (max-width:768px){
+    .titulo-res{
+     max-width:350px ;
+     font-size: 40px;
+    }
+    .p-resp{
+        font-size: 20px;
+    }
+
+}
+
+@media all and (max-width:550px) {
+    .bane-resp{
+        background-image: url('../../../../public/assets/capa.png');
+        background-repeat: no-repeat;
+        background-position:89% center;
+        /*background:linear-gradient(47deg, #000113 0%, #04061d 80%, #04061d 100%);*/
+        height:80%;
+        width: 100%;
+    }
+    .titulo-resssss{
+       color: white
+       }
+    
+}
